@@ -1,27 +1,25 @@
 <template>
   <div id="app">
-    <nav class="navbar navbar-light bg-light">
-      <a class="navbar-brand" href="#">
-        <img
-          src="/src/assets/svg/icon PHP Hosting_My SQL.svg"
-          width="30"
-          height="30"
-          class="d-inline-block align-top"
-          alt
-          loading="lazy"
-        />
-        Gratis Ebook 9 cara cerdas menggunakan domain [x]
-      </a>
-    </nav>
+    <NavbarPromotion />
+    <Navbar />
   </div>
 </template>
 
 <script>
+import Navbar from "@/components/Navbar.vue";
+import NavbarPromotion from "@/components/NavbarPromotion.vue";
 export default {
   name: "App",
-  components: {},
+  components: { NavbarPromotion, Navbar },
 };
 </script>
 
 <style>
+.nav-link {
+  font-size: 10px;
+}
+
+.discount p {
+  font-size: 12px;
+}
 </style>
