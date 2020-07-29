@@ -1,14 +1,13 @@
 <template>
   <div id="app">
-    <nav class="border-bottom navbar py-2 navbar-expand-lg navbar-light">
+    <nav class="border-bottom navbar py-1 navbar-expand-lg navbar-light">
       <div class="container">
         <div class="d-flex">
-          <a class="navbar-brand d-flex font10" href="#">
-            <img src="../assets/svg/sale.svg" width="30" />
-            <p class="ml-2 mb-0 my-auto">Gratis Ebook 9 Cara Cerdas Menggunakan Domain [x]</p>
+          <a class="navbar-brand d-flex py-0" href="#">
+            <img src="../assets/svg/sale.svg" width="20" style="fill-stroke:blue" />
+            <p class="ml-2 mb-0 my-auto font11">Gratis Ebook 9 Cara Cerdas Menggunakan Domain [x]</p>
           </a>
         </div>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item d-flex align-items-center">
@@ -37,9 +36,9 @@ export default {
 };
 </script>
 
-<style>
-.font10 {
-  font-size: 10px;
+<style >
+.font11 {
+  font-size: 11px;
 }
 
 .font12 {
