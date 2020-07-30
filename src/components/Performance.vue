@@ -3,33 +3,55 @@
     <div class="container">
       <div class="row">
         <div class="content col align-self-center">
-          <h4>Powerful dengan Limit PHP yang Lebih Besar</h4>
-          <ul class="lists p-0" style="list-style-type:none;">
-            <li>
-              <i>
-                <img src="../assets/svg/5f21c1fb83e94.png" height="20px" />
-              </i>
-              Solusi PHP untuk performa query yang lebih cepat
-            </li>
-            <li>
-              <i>
-                <img src="../assets/svg/5f21c1fb83e94.png" height="20px" />
-              </i>
-              Konsumsi memori yang lebih rendah
-            </li>
-            <li>
-              <i>
-                <img src="../assets/svg/5f21c1fb83e94.png" height="20px" />
-              </i>
-              Support PHP 5.3, PHP 5.4, PHP 5.5, PHP 5.6, PHP 7
-            </li>
-            <li>
-              <i>
-                <img src="../assets/svg/5f21c1fb83e94.png" height="20px" />
-              </i>
-              Fitur enkripsi IonCube dan Zend Guard Loader
-            </li>
-          </ul>
+          <div class="text-center mb-5">
+            <h4>Powerful dengan Limit PHP yang Lebih Besar</h4>
+          </div>
+          <div class="row d-flex justify-content-around">
+            <div>
+              <ul class="lists p-0" style="list-style-type:none;">
+                <li class="d-flex px-5">
+                  <i class="mr-5 mb-0">
+                    <img src="../assets/svg/5f21c1fb83e94.png" height="50px" />
+                  </i>
+                  <p class="mb-0">max execution time 300s</p>
+                </li>
+                <li class="d-flex px-5">
+                  <i class="mr-5 mb-0">
+                    <img src="../assets/svg/5f21c1fb83e94.png" height="50px" />
+                  </i>
+                  <p class="mb-0">max execution time 300s</p>
+                </li>
+                <li class="d-flex px-5">
+                  <i class="mr-5 mb-0">
+                    <img src="../assets/svg/5f21c1fb83e94.png" height="50px" />
+                  </i>
+                  <p class="mb-0">max execution time 300s</p>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul class="lists p-0" style="list-style-type:none;">
+                <li class="d-flex px-5">
+                  <i class="mr-5 mb-0">
+                    <img src="../assets/svg/5f21c1fb83e94.png" height="50px" />
+                  </i>
+                  <p class="mb-0">max execution time 300s</p>
+                </li>
+                <li class="d-flex px-5">
+                  <i class="mr-5 mb-0">
+                    <img src="../assets/svg/5f21c1fb83e94.png" height="50px" />
+                  </i>
+                  <p class="mb-0">max execution time 300s</p>
+                </li>
+                <li class="d-flex px-5">
+                  <i class="mr-5 mb-0">
+                    <img src="../assets/svg/5f21c1fb83e94.png" height="50px" />
+                  </i>
+                  <p class="mb-0">max execution time 300s</p>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -40,5 +62,20 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
+ul {
+  border: 1px solid #d3d3d3;
+}
+
+li p {
+  font-size: 30px;
+}
+
+li:nth-child(odd) {
+  background-color: #fff;
+}
+
+li:nth-child(even) {
+  background-color: #ebebeb;
+}
 </style>

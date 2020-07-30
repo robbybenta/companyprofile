@@ -1,6 +1,6 @@
 <template>
   <section class="section-networks">
-    <div class="container mt-5">
+    <div class="container mt-5 py-5">
       <div class="row">
         <div class="col-md-4 text-center">
           <img src="../assets/images/image-plugins-zend.jpg" height="200px" alt srcset />
