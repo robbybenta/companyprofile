@@ -10,16 +10,19 @@
           <p class="fontsize18 font-weight-light">
             SuperMicro
             <b>Intel Xeon 24-Cores</b> server dengan Ram 128GB dan teknologi
-            <b>LIVE CloudLinux</b> untuk stabilitas server Anda. Dilengkapi dengan SSD untuk MySQL dan caching, Apache load balancer berbasis LiteSpeed Technologies,
-            <b>CageFS</b> security,
-            <b>Raid-10</b> protection dan auto backup untuk keamanan website PHP Anda
+            <b>LIVE CloudLinux</b> untuk stabilitas server Anda. Dilengkapi
+            dengan SSD untuk MySQL dan caching, Apache load balancer berbasis
+            LiteSpeed Technologies, <b>CageFS</b> security,
+            <b>Raid-10</b> protection dan auto backup untuk keamanan website PHP
+            Anda
           </p>
-          <div class="ml-2 mt-5 mx-2">
-            <button
-              type="button "
-              class="w-50 btn rounded-pill font-weight-bold text-light btn-primary btn-lg"
-            >Pilih Hosting Anda</button>
-          </div>
+
+          <button
+            type="button"
+            class="btn btn-primary col-md-12 rounded-pill mb-5 "
+          >
+            Pilih Hosting Anda
+          </button>
         </div>
         <div class="col d-none d-sm-block d-sm-none d-md-block">
           <img width="600" src="../assets/images/Image support.png" />
@@ -30,7 +33,7 @@
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style>

@@ -153,24 +153,45 @@
                 placeholder="Email"
                 aria-label="Recipient's username"
                 aria-describedby="button-addon2"
+                style="padding:22px"
               />
               <div class="input-group-append">
                 <button
-                  class="btn btn-outline-secondary rounded-pill"
+                  class="btn btn-info rounded-pill"
                   type="button"
                   id="button-addon2"
-                >Berlangganan</button>
+                  style="position:absolute;left:10vw;top:4px"
+                >
+                  Berlangganan
+                </button>
               </div>
             </div>
             <li>
-              <a>Dapatkan promo dan konten menarik dari penyedia hosting terbaik Anda</a>
+              <a
+                >Dapatkan promo dan konten menarik dari penyedia hosting terbaik
+                Anda</a
+              >
             </li>
           </ul>
         </div>
 
-        <div class="col-xs-3 col-md-3">
-          <h6>Quick Links</h6>
-          <ul class="footer-links"></ul>
+        <div class="col-xs-3 col-md-3 mt-2">
+          <ul class="footer-links d-flex mt-4">
+            <li>
+              <img
+                class="imgSocialMedia mr-3"
+                src="https://i.imgur.com/wkHeWh2.png"
+                alt=""
+              />
+            </li>
+            <li>
+              <img
+                class="imgSocialMedia mr-3"
+                src="https://i.imgur.com/Y31bfW1.png"
+                alt=""
+              />
+            </li>
+          </ul>
         </div>
       </div>
       <hr />
@@ -187,7 +208,7 @@
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style>
@@ -243,7 +264,7 @@ export default {};
   margin: 0;
 }
 @media (max-width: 991px) {
-  .site-footer [class^="col-"] {
+  .site-footer [class^='col-'] {
     margin-bottom: 30px;
   }
 }
