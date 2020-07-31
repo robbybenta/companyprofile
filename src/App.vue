@@ -7,10 +7,22 @@
     <Price />
     <Performance />
     <Package />
+    <Support />
+    <Modul />
+    <Linux />
+    <SocialMedia />
+    <Help />
+    <Footer />
   </div>
 </template>
 
 <script>
+import Footer from "@/components/Footer.vue";
+import Help from "@/components/Help.vue";
+import SocialMedia from "@/components/SocialMedia.vue";
+import Linux from "@/components/Linux.vue";
+import Modul from "@/components/Modul.vue";
+import Support from "@/components/Support.vue";
 import Package from "@/components/Package.vue";
 import Performance from "@/components/Performance.vue";
 import Price from "@/components/Price.vue";
@@ -21,6 +33,12 @@ import NavbarPromotion from "@/components/NavbarPromotion.vue";
 export default {
   name: "App",
   components: {
+    Footer,
+    Help,
+    SocialMedia,
+    Linux,
+    Modul,
+    Support,
     NavbarPromotion,
     Navbar,
     Feature,
@@ -33,34 +51,14 @@ export default {
 </script>
 
 <style>
+body {
+  overflow-x: hidden;
+}
 .nav-link {
   font-size: 10px;
 }
 
 .discount p {
   font-size: 12px;
-}
-
-@media (min-width: 500px) {
-  .wrapper {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 16px;
-  }
-}
-
-.card {
-  display: flex; /* [1] */
-  flex-direction: column; /* [2] */
-}
-
-.card__content {
-  flex-grow: 1; /* [3] */
-  display: flex; /* [4] */
-  flex-direction: column;
-}
-
-.card__link {
-  margin-top: auto; /* [5] */
 }
 </style>

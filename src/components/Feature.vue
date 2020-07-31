@@ -4,7 +4,9 @@
       <div class="row">
         <div class="content col align-self-center">
           <h1 class>PHP Hosting</h1>
-          <p class="text-black-50">Cepat, handal, penuh dengan modul PHP yang Anda butuhkan</p>
+          <p
+            class="text-black-50 fontsize35"
+          >Cepat, handal, penuh dengan modul PHP yang Anda butuhkan</p>
           <ul class="lists p-0" style="list-style-type:none;">
             <li>
               <i>
@@ -45,7 +47,7 @@ export default {};
 </script>
 
 <style>
-.content p {
+.fontsize35 {
   font-size: 35px;
 }
 

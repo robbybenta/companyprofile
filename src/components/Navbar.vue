@@ -38,7 +38,7 @@ export default {
       tags: [
         { menu: "Hosting" },
         { menu: "Domain" },
-        { menu: "server" },
+        { menu: "Server" },
         { menu: "Website" },
         { menu: "Afiliasi" },
         { menu: "Promo" },

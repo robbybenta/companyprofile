@@ -25,7 +25,7 @@
                   <i class="mr-5 mb-0">
                     <img src="../assets/svg/5f21c1fb83e94.png" height="50px" />
                   </i>
-                  <p class="mb-0">max execution time 300s</p>
+                  <p class="mb-0">php memory limit 1024 MB</p>
                 </li>
               </ul>
             </div>
@@ -35,19 +35,19 @@
                   <i class="mr-5 mb-0">
                     <img src="../assets/svg/5f21c1fb83e94.png" height="50px" />
                   </i>
-                  <p class="mb-0">max execution time 300s</p>
+                  <p class="mb-0">post max size 128 MB</p>
                 </li>
                 <li class="d-flex px-5">
                   <i class="mr-5 mb-0">
                     <img src="../assets/svg/5f21c1fb83e94.png" height="50px" />
                   </i>
-                  <p class="mb-0">max execution time 300s</p>
+                  <p class="mb-0">upload max filesize 128 MB</p>
                 </li>
                 <li class="d-flex px-5">
                   <i class="mr-5 mb-0">
                     <img src="../assets/svg/5f21c1fb83e94.png" height="50px" />
                   </i>
-                  <p class="mb-0">max execution time 300s</p>
+                  <p class="mb-0">max input vars 2500</p>
                 </li>
               </ul>
             </div>

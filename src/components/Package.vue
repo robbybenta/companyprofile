@@ -33,12 +33,12 @@
             />
 
             <div class="card-body p-0">
-              <p style="font-size:15px" class="my-auto text-dark font-weight-bold">PHP Semua Versi</p>
+              <p style="font-size:15px" class="my-auto text-dark font-weight-bold">MySql Versi 5.6</p>
             </div>
             <div>
               <p class="text-center" style="font-size:15px">
-                Pilih mulai dari versi PHP 5.3 s/d PHP 7.
-                <br />Ubah sesuka Anda!
+                Nikmati MySQL versi terbaru tercepat dan
+                <br />kayaakan fitur
               </p>
             </div>
           </div>
@@ -51,12 +51,15 @@
             />
 
             <div class="card-body p-0">
-              <p style="font-size:15px" class="my-auto text-dark font-weight-bold">PHP Semua Versi</p>
+              <p
+                style="font-size:15px"
+                class="my-auto text-dark font-weight-bold"
+              >Panel Hosting cPanel</p>
             </div>
             <div>
               <p class="text-center" style="font-size:15px">
-                Pilih mulai dari versi PHP 5.3 s/d PHP 7.
-                <br />Ubah sesuka Anda!
+                Kelola website dengan panel canggih yang
+                <br />familiar di hati Anda
               </p>
             </div>
           </div>
@@ -71,12 +74,15 @@
             />
 
             <div class="card-body p-0">
-              <p style="font-size:15px" class="my-auto text-dark font-weight-bold">PHP Semua Versi</p>
+              <p
+                style="font-size:15px"
+                class="my-auto text-dark font-weight-bold"
+              >Garansi Uptime 99.9%</p>
             </div>
             <div>
               <p class="text-center" style="font-size:15px">
-                Pilih mulai dari versi PHP 5.3 s/d PHP 7.
-                <br />Ubah sesuka Anda!
+                Data center yang mendukung kelangsungan
+                <br />website Anda 24/7
               </p>
             </div>
           </div>
@@ -89,12 +95,15 @@
             />
 
             <div class="card-body p-0">
-              <p style="font-size:15px" class="my-auto text-dark font-weight-bold">PHP Semua Versi</p>
+              <p
+                style="font-size:15px"
+                class="my-auto text-dark font-weight-bold"
+              >Database InnoDB Unlimited</p>
             </div>
             <div>
               <p class="text-center" style="font-size:15px">
-                Pilih mulai dari versi PHP 5.3 s/d PHP 7.
-                <br />Ubah sesuka Anda!
+                Jumlah dari ukuran database yang tumbuh
+                <br />sesuai kebutuhan Anda
               </p>
             </div>
           </div>
@@ -107,12 +116,15 @@
             />
 
             <div class="card-body p-0">
-              <p style="font-size:15px" class="my-auto text-dark font-weight-bold">PHP Semua Versi</p>
+              <p
+                style="font-size:15px"
+                class="my-auto text-dark font-weight-bold"
+              >Wildcard Remote MySQL</p>
             </div>
             <div>
               <p class="text-center" style="font-size:15px">
-                Pilih mulai dari versi PHP 5.3 s/d PHP 7.
-                <br />Ubah sesuka Anda!
+                Mendukung s/d 25 max_user_connections
+                <br />dan 100 max_connection
               </p>
             </div>
           </div>
